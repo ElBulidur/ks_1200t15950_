@@ -82,9 +82,66 @@ aluno = {
 } #Dict
 
 
-print(type(aluno))
-print(aluno)
 
+# print(type(aluno))
+# print(aluno)
+
+# print(aluno['nome'])
+# print(aluno.get('nome')) # Retorna None se não encontrar a chaves.
+
+# retorna = aluno.keys() # Retorna as chaves
+# retorna = aluno.values() # retorna os calores
+# retorna = aluno.items() # retorna os os items
+
+aluno['nome'] = "Julio"
+
+
+
+# TUPLAS (IMUTÁVEL)
+
+numeros = (1,"Julio") # tuple
+
+# print(type(numeros))
+# print(numeros)
+
+
+# retorna = numeros.count(1)
+# retorna = numeros.index(1) # Retorna a posição do elemento
+
+dias_da_semana = ("Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom")
+
+
+# LISTAS, DICIONÁRIOS E TUPLAS
+
+alunos = [
+    {"Nome": "André", "Notas": (7,9,7.5,8)},
+    {"Nome": "Ricardo", "Notas": (8.1,9,7.5,8)},
+    {"Nome": "João", "Notas": (5,9,9,7.5)},
+    {"Nome": "Luzia","Notas": (7,9,76.5,7)},
+    {"Nome": "Angélica", "Notas": (9,5,7.5,8)},
+]
+
+
+# print(" === Notas alunos ===")
+
+# print(f"Nome: {alunos[0]['Nome']}, \
+#       1 Bim: {alunos[0]['Notas'][0]}, \
+#         2 Bim: {alunos[0]['Notas'][1]}, \
+#             3 Bim: {alunos[0]['Notas'][2]} e \
+#                 4 Bim: {alunos[0]['Notas'][3]}")
+
+id_usuarios = ["Julio", "Andréia", "Gilberto"]
+
+amizades_julio = (1,2)
+
+amizades = [
+    (0,1),
+    (0,2),
+    (2,1)
+]
+
+
+print(alunos[0].items())
 
 
 
