@@ -14,15 +14,12 @@ def menu_inicial():
 
 def soma(a , b):
     print(f"A soma de {a} + {b} é: {a+b}")
-
-    
+   
 def subtracao(a , b):
     print(f"A subtração de {a} - {b} é: {a-b}")
 
-
 def divisao(a , b):
     print(f"A divisão de {a} - {b} é: {a/b}")
-
 
 def multiplicao(a , b):
     print(f"A multiplicação de {a} * {b} é: {a*b}")
