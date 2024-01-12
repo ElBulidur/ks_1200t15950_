@@ -57,7 +57,6 @@ def somar_descontos(*args):
 total_descontos = somar_descontos(1, 2, 2)
 # print(total_descontos)
 
-
 #Função com keys infinita
 def somar_impostos(**kargs):
 
