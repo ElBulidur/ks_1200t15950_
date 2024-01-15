@@ -1,5 +1,4 @@
 
-
 class Pessoa():
     def __init__(self):
         self.nome = input("Coloque o nome: ")
