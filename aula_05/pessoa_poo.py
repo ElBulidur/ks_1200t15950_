@@ -9,14 +9,13 @@ class Pessoa():
         self.apelido = None
 
     def criar_apelido(self, apelido):
-        
         self.apelido = apelido
 
 
 
 pessoa1 = Pessoa()
 
-# pessoa1.criar_apelido("Zé Leitão")
+pessoa1.criar_apelido("Zé Leitão")
 
 if pessoa1.apelido:
     print(f"O apelido do {pessoa1.nome} é {pessoa1.apelido}")
