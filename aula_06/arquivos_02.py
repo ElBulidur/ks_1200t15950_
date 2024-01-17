@@ -56,9 +56,21 @@ for dados in pasta["boletim_incompleto"].iter_rows(values_only=True):
     if dados[0] and dados[0] != "aluno":
         alunos.append(dados[0])
 
-print(alunos)
+# print(alunos)
 
 
-    
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df_notas_alunos = pd.read_excel("notas_alunos.xlsx")
+
+print(df_notas_alunos.head(3))
+
+# df_notas_alunos.plot()
+# df_notas_alunos.plot(kind="bar")
+
+# plt.show()
+
+
 
 
