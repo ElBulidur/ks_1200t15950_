@@ -39,7 +39,6 @@ def criar_aluno(aluno):
     # Fecha a conexão
     conn.close()
 
-
 #Read(1)
 def pegar_alunos():
     conn = conexao()
@@ -81,7 +80,6 @@ def pegar_aluno_pelo_id(id):
     else:
         return f"Não tem o aluno com id {id} no banco!"
 
-
 def definir_nota_aluno(id):
     aluno = pegar_aluno_pelo_id(id)
 
@@ -98,7 +96,7 @@ def definir_nota_aluno(id):
 
     return media, status, id
 
-
+#Update
 def atualizar_media_e_status(media, status, id):
 
     conn = conexao()
@@ -117,7 +115,7 @@ def atualizar_media_e_status(media, status, id):
         conn.close()
         return f"Não existe no banco o aluno com id {id} ou já foi feito esta alteração."
     
-
+#Delete
 def deleta_aluno(id):
 
     conn = conexao()
